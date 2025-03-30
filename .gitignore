@@ -1,2 +1,59 @@
+# Compiled class files
+*.class
+
+# Pdf files
 *.pdf
+
+# Java JAR and WAR files
 *.jar
+*.war
+*.ear
+
+# Generated files (Javadoc, compiled sources)
+doc/
+target/
+out/
+bin/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code settings (if used)
+.vscode/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# NetBeans project files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+private/
+
+# Maven dependencies
+.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle dependencies
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Logs and temporary files
+logs/
+*.log
+hs_err_pid*
+*.pid
+*.seed
+
+# OS-specific files
+.DS_Store
+Thumbs.db
