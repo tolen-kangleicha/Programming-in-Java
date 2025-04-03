@@ -1,6 +1,6 @@
 # 📌 Programming in Java – Syllabus
 
-## 🔹 1️⃣ [Java Basics & OOP Principles](./notes/Unit&20I)
+## 🔹 1️⃣ [Java Basics & OOP Principles](./notes/Unit%20I)
 - **Object-Oriented Programming (OOP)** principles  
 - **Overview of Java:**  
   - Data types, variables, dynamic initialization  
