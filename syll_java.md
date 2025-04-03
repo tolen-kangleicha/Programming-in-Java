@@ -1,13 +1,13 @@
 # 📌 Programming in Java – Syllabus
 
-## 🔹 1️⃣ Java Basics & OOP Principles  
+## 🔹 1️⃣ [Java Basics & OOP Principles](./notes/Unit&20I)
 - **Object-Oriented Programming (OOP)** principles  
 - **Overview of Java:**  
   - Data types, variables, dynamic initialization  
   - Arrays, operators, control statements  
   - Type conversion and casting  
 
-## 🔹 2️⃣ Classes, Objects & Inheritance  
+## 🔹 2️⃣ [Classes, Objects & Inheritance](./notes/Unit%20II)  
 - **Concepts of Classes & Objects**  
 - **Methods & Constructors:**  
   - `this` keyword  
@@ -25,7 +25,7 @@
   - Dynamic method dispatch  
   - Using `final` with inheritance  
 
-## 🔹 3️⃣ Packages & Interfaces  
+## 🔹 3️⃣ [Packages & Interfaces](./notes/Unit%20III)  
 - **Packages & Importing:**  
   - Differences between classes & interfaces  
   - Defining an interface  
@@ -65,4 +65,4 @@
 ## 📚 Recommended Books:  
 1. **Core Java 2**, *Cay S. Horstmann & Gary Cornell*, **Vol 1, 9th Edition, PHI, 2013**  
 2. **Core Java 2**, *Cay S. Horstmann & Gary Cornell*, **Vol 2, 9th Edition, PHI, 2013**  
-3. **The Complete Reference Java J2SE**, *Herbert Schildt*, **7th Edition, TMH, 2007**  
+3. [**The Complete Reference Java J2SE**](./books/Java_The_Complete_Reference.pdf), *Herbert Schildt*, **7th Edition, TMH, 2007**  
