@@ -2,7 +2,7 @@
 *.class
 
 # Pdf files
-*.pdf
+# *.pdf
 
 # Java JAR and WAR files
 *.jar

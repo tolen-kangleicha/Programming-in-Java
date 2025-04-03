@@ -1,5 +1,6 @@
-import mathoperations.Addition;
-import mathoperations.Multiplication;
+// import mathoperations.Addition;
+// import mathoperations.Multiplication;
+import mathoperations.*;
 
 public class TestMath {
   public static void main(String[] args) {
