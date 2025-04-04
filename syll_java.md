@@ -1,13 +1,13 @@
 # 📌 Programming in Java – Syllabus
 
-## 🔹 1️⃣ [Java Basics & OOP Principles](./notes/Unit%20I)
+## 🔹 1️⃣ [Java Basics & OOP Principles](./notes/unit-1/)
 - **Object-Oriented Programming (OOP)** principles  
 - **Overview of Java:**  
   - Data types, variables, dynamic initialization  
   - Arrays, operators, control statements  
   - Type conversion and casting  
 
-## 🔹 2️⃣ [Classes, Objects & Inheritance](./notes/Unit%20II)  
+## 🔹 2️⃣ [Classes, Objects & Inheritance](./notes/unit-2/)  
 - **Concepts of Classes & Objects**  
 - **Methods & Constructors:**  
   - `this` keyword  
@@ -25,7 +25,7 @@
   - Dynamic method dispatch  
   - Using `final` with inheritance  
 
-## 🔹 3️⃣ [Packages & Interfaces](./notes/Unit%20III)  
+## 🔹 3️⃣ [Packages & Interfaces](./notes/unit-3/)  
 - **Packages & Importing:**  
   - Differences between classes & interfaces  
   - Defining an interface  
