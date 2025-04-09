@@ -7,9 +7,8 @@ public class Conditions {
       System.out.println(i + " is less than 5.");
     }
 
-    for (i = 0; i <10; i++) {
-      if (i == 5)
-        break;
+    for (i = 0; i < 10; i++) {
+      if (i == 5) break;
       System.out.println(i);
     }
 
