@@ -17,6 +17,8 @@ public class Program27_LargestNumberFinder extends JFrame implements ActionListe
     add(result);
     setSize(300, 200);
     setVisible(true);
+    setBounds(100, 100, 400, 300);
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }
 
   public void actionPerformed(ActionEvent e) {

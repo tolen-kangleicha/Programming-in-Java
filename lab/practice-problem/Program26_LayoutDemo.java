@@ -3,9 +3,10 @@ import javax.swing.*;
 
 public class Program26_LayoutDemo {
   public static void main(String[] args) {
-    JFrame frame = new JFrame("Layout Example");
-    frame.setSize(400, 300);
-    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    JFrame f = new JFrame("Layout Example");
+    f.setSize(400, 300);
+    f.setBounds(100, 100, 400, 300);
+    f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     // GridLayout 4x3
     JPanel gridPanel = new JPanel(new GridLayout(4, 3));
@@ -21,10 +22,10 @@ public class Program26_LayoutDemo {
     borderPanel.add(new JButton("West"), BorderLayout.WEST);
     borderPanel.add(new JButton("Center"), BorderLayout.CENTER);
 
-    frame.setLayout(new GridLayout(2, 1));
-    frame.add(gridPanel);
-    frame.add(borderPanel);
+    f.setLayout(new GridLayout(2, 1));
+    f.add(gridPanel);
+    f.add(borderPanel);
 
-    frame.setVisible(true);
+    f.setVisible(true);
   }
 }

@@ -1,3 +1,5 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class Program22_FactorialGUI {
@@ -10,22 +12,24 @@ public class Program22_FactorialGUI {
 
     l1.setBounds(20, 20, 120, 30);
     t1.setBounds(150, 20, 100, 30);
-    b.setBounds(90, 70, 120, 30);
-    result.setBounds(90, 110, 200, 30);
+    b.setBounds(150, 70, 100, 30);
+    result.setBounds(20, 110, 200, 30);
 
     b.addActionListener(
-        e -> {
-          try {
-            int num = Integer.parseInt(t1.getText());
-            if (num < 0) {
-              result.setText("Enter non-negative number");
-              return;
+        new ActionListener() {
+          public void actionPerformed(ActionEvent e) {
+            try {
+              int num = Integer.parseInt(t1.getText());
+              if (num < 0) {
+                result.setText("Enter non-negative number");
+                return;
+              }
+              int fact = 1;
+              for (int i = 1; i <= num; i++) fact *= i;
+              result.setText("Factorial: " + fact);
+            } catch (NumberFormatException ex) {
+              result.setText("Invalid input");
             }
-            int fact = 1;
-            for (int i = 1; i <= num; i++) fact *= i;
-            result.setText("Factorial: " + fact);
-          } catch (NumberFormatException ex) {
-            result.setText("Invalid input");
           }
         });
 
@@ -33,9 +37,9 @@ public class Program22_FactorialGUI {
     f.add(t1);
     f.add(b);
     f.add(result);
-    f.setSize(300, 200);
     f.setLayout(null);
-    f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     f.setVisible(true);
+    f.setBounds(100, 100, 300, 200);
+    f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }
 }

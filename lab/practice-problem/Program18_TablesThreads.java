@@ -1,12 +1,12 @@
 class Table15 extends Thread {
   public void run() {
-    for (int i = 1; i <= 10; i++) System.out.println("15 x " + i + " = " + (15 * i));
+    for (int i = 1; i <= 5; i++) System.out.println("15 x " + i + " = " + (15 * i));
   }
 }
 
 class Table25 extends Thread {
   public void run() {
-    for (int i = 1; i <= 10; i++) System.out.println("25 x " + i + " = " + (25 * i));
+    for (int i = 1; i <= 5; i++) System.out.println("25 x " + i + " = " + (25 * i));
   }
 }
 

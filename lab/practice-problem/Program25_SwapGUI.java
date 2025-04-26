@@ -17,10 +17,12 @@ public class Program25_SwapGUI {
     b.setBounds(90, 110, 80, 30);
 
     b.addActionListener(
-        e -> {
-          String temp = t1.getText();
-          t1.setText(t2.getText());
-          t2.setText(temp);
+        new ActionListener() {
+          public void actionPerformed(ActionEvent e) {
+            String temp = t1.getText();
+            t1.setText(t2.getText());
+            t2.setText(temp);
+          }
         });
 
     f.add(l1);
@@ -31,5 +33,7 @@ public class Program25_SwapGUI {
     f.setSize(250, 200);
     f.setLayout(null);
     f.setVisible(true);
+    f.setBounds(100, 100, 300, 200);
+    f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }
 }

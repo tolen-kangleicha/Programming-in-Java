@@ -12,6 +12,7 @@ public class Program21_Deadlock {
                 try {
                   Thread.sleep(100);
                 } catch (Exception e) {
+                  System.out.println("Error: " + e.getMessage());
                 }
 
                 synchronized (resource2) {
@@ -29,6 +30,7 @@ public class Program21_Deadlock {
                 try {
                   Thread.sleep(100);
                 } catch (Exception e) {
+                  System.out.println("Error: " + e.getMessage());
                 }
 
                 synchronized (resource1) {
