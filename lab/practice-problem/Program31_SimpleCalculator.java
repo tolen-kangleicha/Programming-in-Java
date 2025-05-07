@@ -30,6 +30,7 @@ public class Program31_SimpleCalculator extends JFrame implements ActionListener
     mul.addActionListener(this);
 
     setSize(350, 200);
+    setBounds(100, 100, 350, 200);
     setVisible(true);
   }
 
