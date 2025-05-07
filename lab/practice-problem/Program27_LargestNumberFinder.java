@@ -1,3 +1,4 @@
+import java.awt.GridLayout;
 import java.awt.event.*;
 import javax.swing.*;
 
@@ -7,12 +8,15 @@ public class Program27_LargestNumberFinder extends JFrame implements ActionListe
   JLabel result = new JLabel();
 
   public Program27_LargestNumberFinder() {
-    setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
+    // setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
+    setTitle("Largest among 5 numbers");
+    setLayout(new GridLayout(4, 2, 10, 10));
     for (int i = 0; i < 5; i++) {
       fields[i] = new JTextField(5);
       add(fields[i]);
     }
     button.addActionListener(this);
+    add(new JLabel(""));
     add(button);
     add(result);
     setSize(300, 200);
