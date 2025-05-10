@@ -12,7 +12,14 @@ class Table25 extends Thread {
 
 public class Program18_TablesThreads {
   public static void main(String[] args) {
-    new Table15().start();
-    new Table25().start();
+    Table15 t1 = new Table15();
+    Table25 t2 = new Table25();
+
+    t1.start();
+    try {
+      t1.join();
+    } catch (InterruptedException e) {
+    }
+    t2.start();
   }
 }
